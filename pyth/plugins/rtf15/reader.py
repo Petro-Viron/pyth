@@ -10,7 +10,6 @@ import string, re, itertools, struct
 
 from pyth import document
 from pyth.format import PythReader
-from pyth.encodings import symbol
 
 _CONTROLCHARS = set(string.ascii_letters + string.digits + "-*")
 _DIGITS = set(string.digits)
